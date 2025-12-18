@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="en" dir="ltr">
   <head>
-    <title> Naivas - 35th Anniversary Prizes</title>
+    <title> Hormuud Telecom - Dhammaadka sanadka Abaalmarinta Bixinta</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Naivas - 35th Anniversary Prizes" />
-        <meta name="og:title" content="Naivas - 35th Anniversary Prizes" />
-        <meta property="og:description" content="Naivas - 35th Anniversary Prizes" />
+    <meta name="description" content="Hormuud Telecom - Dhammaadka sanadka Abaalmarinta Bixinta" />
+        <meta name="og:title" content="Hormuud Telecom - Dhammaadka sanadka Abaalmarinta Bixinta" />
+        <meta property="og:description" content="Hormuud Telecom - Dhammaadka sanadka Abaalmarinta Bixinta" />
         <meta property="og:image" content="assets/banner.png" />
     <meta name="robots" content="noindex,nofollow" />
   </head>
@@ -27,7 +27,7 @@
         <!-- Center: Logo -->
         <div class="header-logo">
           <div class="logo-english">
-            <span class="logo-hayat">Naivas</span>
+            <span class="logo-hayat">Hormuud Telecom</span>
           </div>
         </div>
 
@@ -369,9 +369,9 @@
           src="assets/logo.png"
           alt="Apple iPhone 13 Pro Max"
         />
-        <h1 class="heading heading--h1">Congratulations!</h1>
+        <h1 class="heading heading--h1">Hambalyo!</h1>
         <p class="paragraph">
-          On the 35th anniversary, you are one of the few selected people to receive free prizes! Naivas offers.
+          Abaalmarinta wax-bixinta dhammaadka-sanadka, waxaad tahay mid ka mid ah dhowrka qof ee la doortay si ay u helaan abaalmarinno bilaash ah! Hormuud Telecom ayaa bixinaysa.
         </p>
         <p class="paragraph"></p>
         <br />
@@ -379,7 +379,7 @@
           class="button"
           v-on:click="showOpeningModal = false; $confetti.stop()"
         >
-          CONTINUE
+          SII SOCO
         </button>
       </vue-modal>
       <vue-modal :open="showInstructionsModal">
@@ -387,18 +387,18 @@
           src="assets/logo.png"
           style="width: 100px"
         />
-        <h2 class="heading heading--h1">Congratulations!</h2>
-        <h4 class="heading heading--h1">Your answers have been saved</h4>
+        <h2 class="heading heading--h1">Hambalyo!</h2>
+        <h4 class="heading heading--h1">Jawaabahaagii waa la keydiyay</h4>
         <p class="paragraph">
-          This is your opportunity!
+          Tani waa fursadaada!
           <br /><br />
-          You need to choose the box that contains the prize.
+          Waxaad u baahan tahay inaad doorato sanduuqa ay ku jirto abaalmarinta.
           <br /><br />
-          You have 3 attempts, good luck!
+          Waxaad haysataa 3 isku day, nasiib wacan!
         </p>
         <br />
         <button class="button" v-on:click="showInstructionsModal = false">
-          Start Now
+          Hadda Bilow
         </button>
       </vue-modal>
       <vue-modal :open="showFailModal">
@@ -406,31 +406,31 @@
           src="assets/logo.png"
           style="width: 100px"
         />
-        <h1 class="heading heading--h1">Better luck next time</h1>
-        <p class="paragraph">You still have (2) chances.</p>
+        <h1 class="heading heading--h1">Nasiib wacan marka xigta</h1>
+        <p class="paragraph">Weli waxaad haysataa (2) fursadood.</p>
         <br />
         <button class="button" v-on:click="showFailModal = false">YES</button>
       </vue-modal>
       <vue-modal :open="showSuccessModal">
         <img src="https://i.imgur.com/y7AUO1e.png" style="width: 180px" />
-        <h1 class="heading heading--h1">Congratulations!</h1>
-        <h3 class="heading heading--h1">You won! You received:</h3>
+        <h1 class="heading heading--h1">Hambalyo!</h1>
+        <h3 class="heading heading--h1">Waad guulaysatay! Waad heshay:</h3>
 
         <p class="paragraph">
           (Apple iPhone 17 - 256GB)
           <br />
-          <br />Follow the instructions on the next page to receive your prize!
+          <br />Raac tilmaamaha bogga xiga si aad u hesho abaalmarintaada!
         </p>
         <br />
-        <a href="form.html" class="button">NEXT</a>
+        <a href="form.html" class="button">Xiga</a>
       </vue-modal>
       <div class="left">
         <div class="product-preview">
           <div class="product-preview__title"></div>
-          <h1 class="heading heading--h1">Congratulations!</h1>
+          <h1 class="heading heading--h1">Hambalyo!</h1>
           <p class="paragraph">
-            Naivas - 35th Anniversary Prizes <br />
-            Participate now and win valuable prizes
+            Hormuud Telecom - Dhammaadka sanadka Abaalmarinta Bixinta <br />
+            Hadda ka qayb qaado oo ku guulayso abaalmarino qaali ah
           </p>
           <br />
         </div>
@@ -460,7 +460,7 @@
           >
           </vue-text-rotator>
           <div class="verify__text" v-if="rotateIndex > 1">
-            <strong> You answered all questions. </strong>
+            <strong> Waxaad ka jawaabtay su'aalaha oo dhan. </strong>
             <img
               class="verify__icon verify__icon--checked"
               src="https://i.imgur.com/CnKHluD.png"
@@ -468,7 +468,7 @@
             />
           </div>
           <div class="verify__text" v-else>
-            Your answers are being verified
+            Jawaabahaaga waa la xaqiijinayaa
             <img
               class="verify__icon verify__icon--spinner"
               :class="{'verify__icon--visible' : rotateIndex > 0}"
@@ -477,7 +477,7 @@
             />
           </div>
           <div class="verify__text" v-if="rotateIndex > 2">
-            <strong> There are still prizes available! </strong>
+            <strong> Wali waxaa jira abaalmarino la heli karo! </strong>
             <img
               class="verify__icon verify__icon--checked"
               src="https://i.imgur.com/CnKHluD.png"
@@ -485,7 +485,7 @@
             />
           </div>
           <div class="verify__text" v-else>
-            Looking for prizes..
+            Raadinta abaalmarinno..
             <img
               class="verify__icon verify__icon--spinner"
               :class="{'verify__icon--visible' : rotateIndex > 1}"
@@ -494,7 +494,7 @@
             />
           </div>
           <div class="verify__text" v-if="rotateIndex > 3">
-            <strong> Only (1344) prizes remaining! </strong>
+            <strong> Kaliya (1344) abaalmarino ayaa hadhay! </strong>
             <img
               class="verify__icon verify__icon--checked"
               src="https://i.imgur.com/CnKHluD.png"
@@ -502,7 +502,7 @@
             />
           </div>
           <div class="verify__text" v-else>
-            Checking inventory
+            Hubinta alaabada
             <img
               class="verify__icon verify__icon--spinner"
               :class="{'verify__icon--visible' : rotateIndex > 2 }"
@@ -516,24 +516,24 @@
           :show-steps="true"
           :questions='[
            {
-              title: "Do you know Naivas?",
-              answers: [ { text: "YES" }, { text: "NO" } ]
+              title: "Hormuud Telecom ma taqaanaa?",
+              answers: [ { text: "HAA" }, { text: "MAYA" } ]
             },
                                                              {
-              title: "What is your gender? ",
-              answers: [ { text: "MALE" }, { text: "FEMALE" } ]
+              title: "Waa maxay jinsigaagu? ",
+              answers: [ { text: "NINKA" }, { text: "DUMAR" } ]
             },
             {
-              title: "How old are you?",
+              title: "meeqa sano ayaad jirtaa?",
               answers: [ { text: "18-21" }, { text: "22-29" }, { text: "30-39" }, { text: "40-59" }, { text: "60+" } ]
             },
                                                                          {
-              title: "How do you rate Naivas? ",
-              answers: [ { text: "Very Good" }, { text: "Very Good" }, { text: "Good" }, { text: "Not Good" } ]
+              title: "Sideed u qiimaysaa Hormuud Telecom? ",
+              answers: [ { text: "Aad u Wanaagsan" }, { text: "Aad u Wanaagsan" }, { text: "Wacan" }, { text: "Ma Fiicna" } ]
             },
             {
-              title: "Would you recommend to a friend? ",
-              answers: [ { text: "YES" }, { text: "NO" } ]
+              title: "Ma kula talin lahayd saaxiib? ",
+              answers: [ { text: "HAA" }, { text: "MAYA" } ]
             },
           ]'
           v-on:finish="onSurveyFinish"
@@ -565,7 +565,7 @@
         color: #fff; margin-top: 70px;
       "
     >
-      <p>Copyright © 2025 Naivas. All rights reserved.</p>
+      <p>Copyright © 2025 Hormuud Telecom. Dhammaan xuquuqaha way xifdiyeen.</p>
     </div>
 
 <!-- BEGIN: Powered by Supercounters.com -->
